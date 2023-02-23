@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+        font-family: 'Poppins', sans-serif;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        /* background-color: #2f2b2b; */
+        /* color: white; */
+    }
+
+
+
+/* .header{
+    border: 2px solid red;
+} */
+
+.nav{
+    /* border: 2px solid white; */
+    /* margin: 5px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav .logo{
+    /* border: 2px solid blue; */
+    margin: 5px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* .nav .list{
+    border: 2px solid black;
+    margin: 5px;
+} */
+
+.nav .list .ul{
+    /* border: 2px solid red; */
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 30px;
+}
+
+.nav .list .ul li{
+    /* border: 2px solid blueviolet; */
+    list-style: none;
+    /* margin: 5px; */
+   
+}
+
+
+/* .nav .list .ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+} */
+
+.nav .list .ul li a{
+    text-decoration: none;
+    /* border: 1px solid white; */
+    color: rgb(18, 155, 155);
+    font-weight: 500;
+
+}
+
+.nav .list .ul li a:hover{
+    font-weight: 600;
+    text-decoration: underline;
+
+}
+
+
+.nav .search-field{
+    /* border: 2px solid blueviolet; */
+    margin: 5px;
+    display: flex;
+    gap: 35px;
+
+}
+
+input{
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.btn{
+    /* border: 1px solid white; */
+    background-color:rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    /* border: 1px solid black; */
+    transition: 0.1s ease-out;
+}
+
+
+
+
+      /* SECTION  */
+.hero-section{
+    /* border: 2px solid white; */
+    /* margin: 5px; */
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Left side of section 
+.hero-section .hero-section-left{
+    border: 2px solid red;
+    margin: 5px;
+} */
+
+
+.hero-section .hero-section-left h1{
+    font-size: 40px;
+    /* border: 2px solid gold; */
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-section .hero-section-left h1 span{
+    color:rgb(18, 155, 155);
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.hero-section .hero-section-left p{
+    font-weight:500 ;
+}
+
+.hero-section .hero-section-left p span{
+    font-weight: 700;
+    font-size: 25px;
+    color:rgb(18, 155, 155);
+
+}
+
+
+
+/* Right side of section  */
+.hero-section .hero-section-right{
+    /* border: 2px solid gold; */
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* height: 200px; */
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.hero-section-right img{
+    /* border: 2px solid blue; */
+
+    width: 300px;
+    border-radius:20px;
+}
+
+
+.hero-section-right .second_button{
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    /* gap: 30px; */
+}
+
+
+/* footer */
+footer{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    justify-content: space-around;
+}
+
+footer .para{
+    /* border: 2px solid blue; */
+    font-weight: 600;
+}
+
+footer .footer_ul{
+    /* border: 2px solid gold; */
+    display: flex;
+    /* margin: 5px; */
+    gap: 30px;
+    align-items: center;
+
+}
+
+footer .footer_ul li{
+    /* margin: 5px; */
+    /* border: 2px solid blue; */
+    list-style: none;
+
+}
+
+footer .footer_ul li a{
+    /* border: 2px solid black; */
+    padding: 20px 20px;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+

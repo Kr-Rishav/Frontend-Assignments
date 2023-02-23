@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    background-color: rgb(56, 60, 63);
+    color: white;
+} */
+
+/* NAVBAR  */
+.navbar{
+    /* border: 2px solid white; */
+    display: flex;
+    /* height: 50%; */
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 60px; */
+}
+
+.navbar .left{
+    /* border: 2px solid green; */
+   margin-left: 40px;
+}
+
+.navbar .left img{
+    padding: 10px;
+    /* border: 2px solid red; */
+    /* width: 100px; */
+
+}
+
+
+
+/* Right-Navbar  */
+.navbar .right{
+    /* border: 2px solid red; */
+    width: 60%;
+}
+
+.navbar .right ul{
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 20px;
+    padding: 20px 10;
+    margin: 5px;
+
+}
+
+.navbar .right ul li{
+    /* border: 2px solid white; */
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+.navbar .right ul li a{
+    /* border: 2px solid blue; */
+    text-decoration: none;
+    font-weight: 300;
+    font-size:1.3rem;
+    color: black;
+}
+
+
+/* SECTION  */
+.main-section{
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-section .left-section{
+    /* border: 2px solid blue; */
+    width: 40%;
+
+}
+
+
+.main-section .left-section h1{
+    font-size:60px ;
+    /* border: 2px solid white; */
+
+}
+
+.main-section .left-section .para{
+    margin: 5% 0;
+}
+
+.main-section .left-section button{
+    padding: 15px 20px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color: #3b855b;
+    border-radius:10px;
+}
+
+.main-section .left-section button:hover{
+    cursor: pointer;
+    color: #3b855b;
+    background-color: white;
+    transition: 0.2s ease-out;
+    font-size: 18px;
+}
+
+
+
+
+/* Right Section  */
+.main-section .right-section{
+    /* width: 60%; */
+    padding: 4%;
+    /* border: 2px solid greenyellow; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.main-section .right-section .two-images{
+    /* border: 2px solid brown; */
+    margin-bottom: 20px;
+}
+
+.main-section .right-section .two-images img{
+    /* border: 2px solid greenyellow; */
+    width: 48%;
+
+}
+
